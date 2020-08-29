@@ -563,172 +563,77 @@ header {
 
 
 /* ----------------------------------------------- */
-/* achievements */
+/* EDUCATIONS */
 /* ----------------------------------------------- */
 
-
-.steps-box {
-    margin-top: 30px;
-}
-
-
-.steps-box:first-child {
-    text-align: right;
-    padding-right: 3%;
-}
-
-.steps-box:last-child {
-    text-align: left;
-    padding-left: 3%;
-    margin-top: 70px;
-}
-
-.app-screen {
-    width: 40%;
-}
-
-.works-step {
-    margin-bottom: 50px;
-}
-
-.works-step:last-of-type {
-    margin-bottom: 80px;
-}
-
-.works-step div {
-    color: #e67e22;
-    font-size: 150%;
-    height: 54px;
-    width: 54px;
-    border: 2px solid #e67e22;
-    border-radius: 50%;
-    display: inline-block;
-    text-align: center;
-    margin-right: 25px;
-    float: left;
-    padding: 5px;
-}
-
-.btn-app:link,
-.btn-app:visited {
-    border: 0;
-}
-
-.btn-app img {
-    height: 50px;
-    width: auto;
-    margin-right: 10px;
-}
-
-
-/* ----------------------------------------------- */
-/* CITIES */
-/* ----------------------------------------------- */
-
-.box img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 15px;
-}
-
-.city-feature {
-    margin-bottom: 5px;
-}
-
-
-
-/* ----------------------------------------------- */
-/* SIGN UP */
-/* ----------------------------------------------- */
-
-.section-plans {
+.section-education {
     background-color: #f4f4f4;
 }
 
-.plan-box {
-    background-color: #fff;
-    border-radius: 5px;
-    width: 90%;
-    margin-left: 5%;
-    box-shadow: 0 2px 2px #efefef;
-}
-
-.plan-box div {
-    padding: 15px;
-    border-bottom: 1px solid #e8e8e8;
-}
-
-.plan-box div:first-child {
-    background-color: #fcfcfc;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-
-.plan-box div:last-child {
-    text-align: center;
-    border: 0;
-}
-
-
-.plan-price {
-    font-size: 300%;
+.education_heading {
     margin-bottom: 10px;
-    font-weight: 100;
-    color: #e67e22;
 }
 
-.plan-price span {
-    font-size: 30%;
-    font-weight: 300;
+.education:not(:last-of-type)::after {
+    display: block;
+    height: 2px;
+    background-color: #968E8E;
+    content: " ";
+    width: 50%;
+    text-align: center;
+    margin: 30px auto;
 }
 
-.plan-price-meal {
-    font-size: 80%;
+.school h3 {
+    margin: 0;
 }
 
-.plan-box ul {
-    list-style: none;
+.school {
+    float: left;
 }
 
-.plan-box ul li {
-    padding: 5px 0;
+.education_duration {
+    float: right;
 }
 
-
-
+.school p {
+    font-size: 65%;
+}
 
 /* ----------------------------------------------- */
 /* FOOTER */
 /* ----------------------------------------------- */
 
 footer {
-    background-color: #333;
-    padding: 50px;
-    font-size: 80%;
+    background-color: #000;
+    width: 100%;
+    height: 100px;
+    text-align: center;
 }
 
-.footer-nav {
-    list-style: none;
-    float: left;
+footer p {
+    color: #fff;
+    padding-top: 40px;
 }
+
+
+/* ----------------------------------------------- */
+/* SOCIAL LINKS */
+/* ----------------------------------------------- */
 
 .social-links {
     list-style: none;
 }
 
-.footer-nav li,
 .social-links li {
     display: inline-block;
     margin-right: 20px;
 }
 
-.footer-nav li:last-child,
 .social-links li:last-child {
     margin-right: 0;
 }
 
-.footer-nav li a:link,
-.footer-nav li a:visited, 
 .social-links li a:link,
 .social-links li a:visited {
     text-decoration: none;
@@ -738,10 +643,6 @@ footer {
     transition: color 0.2s;
 }
 
-.footer-nav li a:hover,
-.footer-nav li a:active {
-    color: #ddd;
-}
 
 .social-links li a:link,
 .social-links li a:visited {
@@ -770,13 +671,6 @@ footer {
 
 .social-instagram:hover {
     color: #517fa4;
-}
-
-
-footer p {
-    color: #888;
-    text-align: center;
-    margin-top: 20px;
 }
 
 

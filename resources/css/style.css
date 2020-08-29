@@ -477,8 +477,94 @@ header {
 
 
 
+/* ----------------------------------------------- */
+/* PROJECT */
+/* ----------------------------------------------- */
+
+.project-list {
+    width: 100%;
+    display: table;
+}
+
+.project-list h3 {
+    text-align: center;
+}
+
+.project-list .box {
+    height: 100%;
+    display: table-cell;
+     width: 50%;
+
+}
+
+.project-list .box:first-child {
+    border-right: 1px solid #B1A8A8;
+}
+
+.project-list .box:last-child {
+    margin-left: 0px;
+    border-left: 1px solid #B1A8A8;
+}
+
+.project_heading_description {
+    margin:10px 0;
+}
+
+.project {
+    width: 100%;
+    display: table;
+    margin: 30px 0;
+}
+
+.project-side-icon {
+    width: 10%;
+    display: table-cell;
+    text-align: center;
+    position: relative;
+}
+
+.project-side-icon ion-icon  {
+    border-radius: 50%;
+    border: 2px solid #BDB6B6;
+    color: #FFF;
+    background-color: #e67e22;
+    font-size: 150%;
+    width: 80%;
+}
+
+.vertical-line {
+    height: 80%;
+    border-left: 1px solid #BDB6B6; 
+    left: 50%;
+    position: absolute;
+}
+
+.project-content {
+    display: table-cell;
+    padding-left: 30px;
+}
+
+.project-content ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.project-tags {
+    float: left;
+    margin-right: 5px;
+    margin-top: 2px;
+    padding: 4px;
+    font-size: 70%;
+    border-radius: 30%;
+    border: 1px solid #BDB6B6;
+    color: #FFF;
+    background-color: #ED5F80;
+}
 
 
+/* ----------------------------------------------- */
+/* achievements */
+/* ----------------------------------------------- */
 
 
 .steps-box {
@@ -550,48 +636,6 @@ header {
 }
 
 
-/* ----------------------------------------------- */
-/* TESTIMONIALS */
-/* ----------------------------------------------- */
-
-.section-testimonials {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers-min.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers-min.jpg);
-    background-size: cover;
-    color: #fff;
-    background-attachment: fixed;
-}
-
-blockquote {
-    padding: 2%;
-    font-style: italic;
-    line-height: 145%;
-    position: relative;
-    margin-top: 40px;
-}
-
-blockquote:before {
-    content: "\201C";
-    font-size: 500%;
-    display: block;
-    position: absolute;
-    top: -5px;
-    left: -5px;
-}
-
-cite {
-    font-size: 90%;
-    margin-top: 25px;
-    display: block;
-}
-
-cite img {
-    height: 45px;
-    border-radius: 50%;
-    margin-right: 10px;
-    vertical-align: middle;
-}
-
 
 /* ----------------------------------------------- */
 /* SIGN UP */
@@ -651,34 +695,6 @@ cite img {
 }
 
 
-/* ----------------------------------------------- */
-/* FORM */
-/* ----------------------------------------------- */
-
-.contact-form {
-    width: 60%;
-    margin: 0 auto;
-}
-
-input[type=text],
-input[type=email],
-select,
-textarea {
-    width: 100%;
-    padding: 7px;
-    border-radius: 3px;
-    border: 1px solid #ccc;
-}
-
-textarea {
-    height: 100px;
-}
-
-input[type=checkbox] {
-    margin: 10px 5px 10px 0;
-}
-
-*:focus {outline: none;}
 
 
 /* ----------------------------------------------- */

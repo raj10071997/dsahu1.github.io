@@ -437,6 +437,49 @@ header {
     font-size: 65%;
 }
 
+/* ----------------------------------------------- */
+/* OPEN-SOURCE-CONTRIBUTION */
+/* ----------------------------------------------- */
+
+.section-open-source {
+    background-color: #f4f4f4;
+}
+
+.contribution {
+    width: 100%;
+    margin: 30px auto;
+/*    display: flex;
+  align-items: baseline;*/
+}
+
+.contribution-side-icon {
+    height: auto;
+}
+
+.open-source-icon {
+    border-radius: 50%;
+    border: 1px solid traparent;
+    color: #FFF;
+    background-color: #e67e22;
+    font-size: 150%;
+        float: left;
+}
+
+.contribution-projects {
+    padding-top: 2px;
+    margin-left: 40px;
+}
+
+.contribution-projects span {
+    font-size: 70%;
+    font-style: italic;
+}
+
+
+
+
+
+
 
 .steps-box {
     margin-top: 30px;

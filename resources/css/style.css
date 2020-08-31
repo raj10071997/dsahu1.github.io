@@ -52,6 +52,10 @@ section {
     padding: 1%;
 }
 
+.for-justified-content {
+    text-align: justify;
+}
+
 /* ----- HEADINGS ----- */
 h1,
 h2,
@@ -494,12 +498,13 @@ header {
 .project-list .box {
     height: 100%;
     display: table-cell;
-     width: 50%;
+    width: 50%;
 
 }
 
 .project-list .box:first-child {
     border-right: 1px solid #B1A8A8;
+    padding-right: 20px;
 }
 
 .project-list .box:last-child {
@@ -535,9 +540,10 @@ header {
 
 .vertical-line {
     height: 80%;
-    border-left: 1px solid #BDB6B6; 
+    border-left: 2px solid #BDB6B6; 
     left: 50%;
     position: absolute;
+    background-color: #BD3232;
 }
 
 .project-content {
@@ -683,21 +689,25 @@ footer p {
 
 .js--wp-1,
 .js--wp-2,
-.js--wp-3
+.js--wp-3,
+.js--wp-5,
+.js--wp-6
 {
     opacity: 0;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
+    -webkit-animation-duration: 0.6s;
+    animation-duration: 0.6s;
 }
 
 .js--wp-4 {
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
+    -webkit-animation-duration: 0.6s;
+    animation-duration: 0.6s;
 }
 
 .js--wp-1.animated,
 .js--wp-2.animated,
-.js--wp-3.animated {
+.js--wp-3.animated,
+.js--wp-5.animated,
+.js--wp-6.animated {
     opacity: 1;
 }
 

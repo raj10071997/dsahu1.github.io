@@ -22,3 +22,5 @@
 - https://unsplash.com/
 - https://www.w3schools.com/icons/fontawesome5_icons_brands.asp
 - https://icons8.com/icons/set/big-data-analytics
+- https://matthewjamestaylor.com/equal-height-columns
+- https://css-tricks.com/using-flexbox/

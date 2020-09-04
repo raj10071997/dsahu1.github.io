@@ -2,15 +2,15 @@ $(document).ready(function() {
     
     
     /* For the sticky navigation */
-    $('.js--section-about').waypoint(function(direction) {
-        if (direction == "down") {
-            $('nav').addClass('sticky');
-        } else {
-            $('nav').removeClass('sticky');
-        }
-    }, {
-      offset: '60px;'
-    });
+    // $('.js--section-about').waypoint(function(direction) {
+    //     if (direction == "down") {
+    //         $('nav').addClass('sticky');
+    //     } else {
+    //         $('nav').removeClass('sticky');
+    //     }
+    // }, {
+    //   offset: '60px;'
+    // });
     
     
     /* Navigation scroll */
@@ -34,32 +34,32 @@ $(document).ready(function() {
     $('.js--wp-1').waypoint(function(direction) {
         $('.js--wp-1').addClass('animated fadeIn');
     }, {
-        offset: 'bottom-in-view'
+        offset: '60%'
     });
     
     $('.js--wp-2').waypoint(function(direction) {
         $('.js--wp-2').addClass('animated fadeInUp');
     }, {
-        offset: 'bottom-in-view'
+        offset: '60%'
     });
 
     $('.js--wp-6').waypoint(function(direction) {
         $('.js--wp-6').addClass('animated fadeInUp');
     }, {
-        offset: 'bottom-in-view'
+        offset: '60%'
     });
     
     
     $('.js--wp-3').waypoint(function(direction) {
         $('.js--wp-3').addClass('animated fadeIn');
     }, {
-        offset: 'bottom-in-view'
+        offset: '60%'
     });
 
     $('.js--wp-5').waypoint(function(direction) {
         $('.js--wp-5').addClass('animated fadeInUp');
     }, {
-        offset: '90%'
+        offset: '60%'
     });
     
     
@@ -67,16 +67,15 @@ $(document).ready(function() {
     /* Mobile navigation */
     $('.js--nav-icon').click(function() {
         var nav = $('.js--main-nav');
-        var icon = $('.js--nav-icon i');
+        var icon = $('.js--nav-icon ion-icon');
         
-        nav.slideToggle(200);
-        
-        if (icon.hasClass('ion-navicon-round')) {
-            icon.addClass('ion-close-round');
-            icon.removeClass('ion-navicon-round');
+        nav.slideToggle(600);
+
+        if(icon.attr("name")=="menu-outline") {
+            icon.attr("name","close-outline");
         } else {
-            icon.addClass('ion-navicon-round');
-            icon.removeClass('ion-close-round');
-        }        
+            icon.attr("name","menu-outline");
+        }
+
     });
 });

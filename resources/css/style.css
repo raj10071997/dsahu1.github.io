@@ -63,6 +63,12 @@ section {
     text-align: justify;
 }
 
+hr {
+    margin: 10px 0;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
 /* ----- HEADINGS ----- */
 h1,
 h2,
@@ -78,6 +84,7 @@ h1 {
     font-size: 240%;
     word-spacing: 4px;
     letter-spacing: 1px;
+    font-family: 'Dancing Script', cursive;
 }
 
 h2 {
@@ -244,7 +251,7 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     position: relative;
 }
 
@@ -274,6 +281,8 @@ header {
     border-radius: 50%;
     border: 3px solid #C5BEBE;
 }
+
+
 
 /* Main navi */
 .main-nav {

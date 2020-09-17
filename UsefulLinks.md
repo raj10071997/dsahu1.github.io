@@ -21,3 +21,4 @@
 - https://icons8.com/icons/set/big-data-analytics
 - https://matthewjamestaylor.com/equal-height-columns
 - https://css-tricks.com/using-flexbox/
+- https://css-tricks.com/essential-meta-tags-social-media/
